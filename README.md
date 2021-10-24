@@ -7,10 +7,6 @@ Chaos Awakens is a remaster of both the very iconic mod [OreSpawn](https://www.o
 To use this maven you should put this code into the repository section of your build.gradle
 
 	maven {
-		name = "CurseForge"
-		url = "https://www.cursemaven.com"
-    }
-	maven {
 		name = "ChaosMaven"
 		url = "https://raw.github.com/ChaosAwakens/ChaosMaven/main"
 	}
