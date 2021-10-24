@@ -6,15 +6,20 @@ Chaos Awakens is a remaster of both the very iconic mod [OreSpawn](https://www.o
 #### Make sure to NOT select the dependencies and respository that are inside the buildscript.
 To use this maven you should put this code into the repository section of your build.gradle
 
-    maven {
-        name = "CurseForge"
-        url = "https://www.cursemaven.com"
+	maven {
+		name = "CurseForge"
+		url = "https://www.cursemaven.com"
     }
 	maven {
-        name = "ChaosMaven"
-        url = "https://raw.github.com/ChaosAwakens/ChaosMaven/main"
-    }
+		name = "ChaosMaven"
+		url = "https://raw.github.com/ChaosAwakens/ChaosMaven/main"
+	}
+	maven {
+		name = "GeckoLib"
+		url "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/"
+	}
+    
 You must also add this code to the dependencies section of your build.gradle and update the Chaos Awakens and the Geckolib versions to the latest for the current version of Minecraft that Chaos Awakens is updated too.
 
 	implementation fg.deobf("io.github:ChaosAwakens:1.16.5-0.9.0.3")
-    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.16.5:3.0.46')
+	implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.16.5:3.0.46')
