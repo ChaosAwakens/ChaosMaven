@@ -17,5 +17,5 @@ To use this maven you should put this code into the repository section of your b
     
 You must also add this code to the dependencies section of your build.gradle and update the Chaos Awakens and the Geckolib versions to the latest for the current version of Minecraft that Chaos Awakens is updated too.
 
-	implementation fg.deobf("io.github:ChaosAwakens:1.16.5-0.11.0.1")
-	implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.16.5:3.0.92')
+	implementation fg.deobf("io.github:ChaosAwakens:1.16.5-0.12.1.1")
+	implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.16.5:3.0.97')
